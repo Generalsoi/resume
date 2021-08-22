@@ -292,6 +292,7 @@ ul{
 
     #about-me h5{
         font-size: 1.5em;
+        animation: none;
     }
 
     #about-me img{
@@ -299,6 +300,7 @@ ul{
         width: 300px;
         height: 300px;
         margin: 2em auto;
+        animation: none;
     }
 
     /*********Resume responsive styles **********/
@@ -320,6 +322,10 @@ ul{
 
     .resume-content p{
         font-size: 1em;
+    }
+
+    .resume-content h6, .resume-content p{
+        animation: none;
     }
 
 
