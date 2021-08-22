@@ -147,10 +147,36 @@ ul{
 .resume-content h6{
     color: #DF711B;
     font-size: 2em;
+    animation: h6Animate 8s ease-in;
+}
+
+@keyframes h6Animate {
+    from{
+        margin-left: 100%;
+        font-size: 0;
+    }
+
+    to{
+        margin-left: 0%;
+        font-size: 2em;
+    }
 }
 
 .resume-content p{
     font-size: 1.2em;
+    animation: pAnimate 8s ease-in;
+}
+
+@keyframes pAnimate {
+    from{
+        margin-right: 100%;
+        font-size: 0;
+    }
+
+    to{
+        margin-right: 0%;
+        font-size: 1.2em;
+    }
 }
 
 .resume-content-list{
@@ -221,7 +247,7 @@ ul{
 
 #footer img{
     width: 100px;
-    height: 60px;
+    height: 40px;
 }
 
 #footer ul{
