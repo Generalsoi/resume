@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css";
+import Success from "../assets/images/success.jpeg";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,8 @@ const Homepage = () => {
         </h3>
         <p>Software Developer</p>
       </div>
+
+      <img src={Success} alt="success" className="success-img" />
     </div>
   );
 };

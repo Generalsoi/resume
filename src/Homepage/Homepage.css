@@ -1,9 +1,46 @@
 .homepage{
     height: 100vh;
     width: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .introduction h3{
     color: #FFEA00;
     font-family: 'Kaushan Script', cursive;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    animation: nameChange 3s infinite;
+}
+
+@keyframes nameChange {
+    0%{
+        color: #FFEA00;
+    }
+
+    50%{
+        color: red;
+    }
+
+    100%{
+        color: #fff;
+    }
+}
+
+.introduction p {
+    color: #fff;
+    opacity: 0.26;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+}
+
+.success-img{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    object-fit: contain;
 }
